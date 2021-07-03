@@ -1,0 +1,29 @@
+#DASHBOARD-VIEW{
+    display: flex;
+    height:100vh;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+}
+.san-card{
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.af-filter_btn{
+    width:100%;
+    margin-bottom:5px!important;
+    background:#4cb571!important;
+    color:white!important;
+}
+#PRELOADER{
+    position:fixed;
+    height:100vh;
+    width:100%;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.2)
+}
